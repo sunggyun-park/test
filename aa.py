@@ -11,6 +11,8 @@ with col2:
 
 st.image("111.png", caption="성균이의 사진", use_column_width=True)
 
+color = st.radio('color', ('blue', 'red'))
+
 
 
 import streamlit as st
